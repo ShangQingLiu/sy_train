@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.cards {
+  &:not(nth-child(3n)) {
+    maring-right: 5%;
+  }
+}

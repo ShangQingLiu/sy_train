@@ -1,8 +1,37 @@
 :root{
-    --Student-big-quote-margin-left:25rem;
+    --Student-big-quote-margin-left:30vw;
     --Student-big-quote-margin-top:17rem;
     --Student-3-background-height:650px;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/*.cards{*/
+/*    &:not(nth-child(3n)){*/
+/*        margin-right:5%;*/
+/*    }*/
+/*}*/
+
+
+
+.button1{
+    width: 146px;
+    height: 57px;
+    border-radius: 6px;
+    background-color: #247ba0;
+    font-family: PingFangTC,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.38px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
 .Student-pos-rel{
     position:relative;
 }
@@ -82,7 +111,7 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: 1.25px;
-    text-align: center;
+    text-align:center;
     color: #242423;
     margin-top:5rem;
 }
@@ -103,8 +132,9 @@
 }
 
 .Student-2-wrapper{
+    margin-top:1rem;
     display: grid;
-    grid-template-columns: 4fr 3fr 5fr 3fr 5fr 3fr 4fr;
+    grid-template-columns: 4fr 3fr 6fr 3fr 5fr 3fr 4fr;
 }
 
 .Student-2-line-1{
@@ -166,13 +196,13 @@
 
 
 .Student-pic-intro-1{
-   margin-left:10%
+   margin-left:10vw;
 }
 .Student-pic-intro-2{
-    margin-left:10%
+    margin-left:17vw;
 }
 .Student-pic-intro-3{
-    margin-left:10%
+    margin-left:13vw;
 }
 
 .Student-2-margin{
@@ -263,4 +293,218 @@
 .Student-CollegeFeature-margin{
     margin-top:2rem;
     display:inline-block;
+}
+
+.Student-4-background{
+    width: 100%;
+    height: 910px;
+    background-color: #ffffff;
+}
+
+.Student-4-p1-title1{
+    width: 270px;
+    height: 33px;
+    font-family: PingFangTC,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #242423;
+
+    margin-top:42.8vh;
+    margin-left:8.3vw;
+}
+.Student-4-p1{
+    width: 360px;
+    height: 60px;
+    font-family: PingFangTC,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.88;
+    letter-spacing: 0.33px;
+    color: #757575;
+
+    margin-left:12.5vw;
+}
+
+
+.Student-4-line{
+    width: 42px;
+    height: 1px;
+    border: solid 2px #247ba0;
+    background-color: #247ba0;
+    margin-left: 8.3vw;
+    margin-top: 57vh;
+}
+
+.Student-4-pic-rect{
+    width: 270px;
+    height: 330px;
+    object-fit: contain;
+    border-radius: 3px;
+    background-color: #d8d8d8;
+
+    margin-left: 60.8vw;
+    margin-top: 42.1vh;
+}
+
+.Student-4-pic-c-shape{
+    width: 83.1px;
+    height: 78px;
+    object-fit: contain;
+    transform: rotate(0deg);
+
+    margin-left: 52.1vw;
+    margin-top: 73.7vh;
+}
+
+.Student-4-pic-b-rect {
+    width: 210px;
+    height: 256px;
+    object-fit: contain;
+    border-radius: 3px;
+    background-color: #242423;
+
+    margin-left: 53.8vw;
+    margin-top: 57.3vh;
+}
+.Student-4-pic-oval{
+    width: 133px;
+    height: 133px;
+    object-fit: contain;
+
+    margin-left:70.8vw;
+    margin-top:59.5vh;
+}
+.Student-4-pic-r-rect{
+    width: 187px;
+    height: 155px;
+    object-fit: contain;
+    transform: rotate(75deg);
+    /*background-color: #ff6b6b;*/
+
+    margin-left:68.7vw;
+    margin-top:37.7vh;
+}
+
+.Student-5-background{
+    width: 100%;
+    height: 696px;
+    background-color: rgba(244, 244, 248, 0.3);
+}
+
+.Student-5-title{
+    width: 246px;
+    height: 84px;
+    font-family: PingFangTC,sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    color: #242423;
+
+    margin-left:8.3vw;
+    margin-top:13.2vh;
+}
+
+.Student-5-subtitle{
+    width: 123px;
+    height: 41px;
+    font-family: PingFangTC,sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.37;
+    letter-spacing: 0.63px;
+    color: #5c6b73;
+}
+.Student-5-wrapper{
+    margin-top:1rem;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+}
+
+.Student-6-text{
+    width: 166px;
+    height: 245px;
+    font-family: PingFangTC,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.38px;
+    color: #242423;
+    position:relative;
+    float:left;
+}
+
+.Student-6-wrapper{
+    margin-top:1rem;
+    display: grid;
+    grid-template-columns: 6fr 4fr 4fr 4fr 4fr;
+
+}
+
+.Student-bottom-rect-root{
+    width: 240px;
+    height: 120px;
+    object-fit: contain;
+
+}
+
+.Level-1-AI {
+    width: 150px;
+    height: 65px;
+    font-family: PingFangTC,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #242423;
+}
+
+.Student-pic-teacher{
+    width: 180px;
+    height: 180px;
+}
+
+.Student-7-teacher-name{
+    width: 50px;
+    height: 33px;
+    font-family: PingFangTC,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #242423;
+}
+.Student-7-teacher-experience{
+    width: 75px;
+    height: 77px;
+    font-family: PingFangTC,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.38px;
+    color: #757575;
+}
+.Student-7-wrapper{
+    margin-top:1rem;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
 }
