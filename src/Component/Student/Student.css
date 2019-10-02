@@ -1,10 +1,14 @@
-:root{
+/* :root{
     --Student-big-quote-margin-left:30vw;
     --Student-big-quote-margin-top:17rem;
     --Student-3-background-height:650px;
-}
+} */
 body::-webkit-scrollbar {
     display: none;
+}
+
+p {
+    margin: 0;
 }
 
 /*.cards{*/
@@ -38,15 +42,19 @@ body::-webkit-scrollbar {
 .Student-pos-abs{
     position:absolute;
 }
-.Student-logo{
-    width: calc(var(--Home-logo-width)*2/3);
-    height:calc(var(--Home-logo-height)*2/3);
-    float: left;
+.Student-logo-block {
+    top: 2rem;
+    left: 3rem;
+    width: 221px;
+    height: auto;
     display:block;
-    margin-left:3rem;
-    margin-top:2rem;
 }
-
+.Student-logo{
+    width: 100%;
+}
+.Student-block {
+    padding: 90px 120px;
+}
 .Student-learning{
     object-fit: cover;
     width: 100%;
@@ -79,8 +87,6 @@ body::-webkit-scrollbar {
 }
 
 .Student-subtitle{
-    width: 638px;
-    height: 85px;
     font-family: PingFangTC,sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -91,14 +97,7 @@ body::-webkit-scrollbar {
     text-align: center;
     color: #f5f5f5;
 }
-
-.Student-subtitle-1{
-    margin-left:calc(var(--Student-big-quote-margin-left) + 2.1rem);
-    margin-top:calc(var(--Student-big-quote-margin-top) + 7rem);
-}
-.Student-subtitle-2{
-    margin-left:calc(var(--Student-big-quote-margin-left) + 2.1rem);
-    margin-top:calc(var(--Student-big-quote-margin-top) + 10rem);
+.Student-2 {
 }
 
 .Student-2-title{
@@ -113,7 +112,6 @@ body::-webkit-scrollbar {
     letter-spacing: 1.25px;
     text-align:center;
     color: #242423;
-    margin-top:5rem;
 }
 
 .Student-2-subtitle{
@@ -132,50 +130,48 @@ body::-webkit-scrollbar {
 }
 
 .Student-2-wrapper{
-    margin-top:1rem;
-    display: grid;
-    grid-template-columns: 4fr 3fr 6fr 3fr 5fr 3fr 4fr;
+    margin-top: 98px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.Student-2-line-1{
-    width: 60px;
-    height: 1px;
-    border: solid 2px #247ba0;
-    background-color:#247ba0 ;
-    margin-left:40%;
-    margin-top:4rem; //TODO:this should change to other variable
+.Student-2-feature-block {
+    text-align: center;
+    flex: 1;
+}
+.Student-2-feature-block-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #242423;
+    line-height: 33px;
+    margin-bottom: 12px;
+}
+.Student-2-feature-block-content {
+    line-height: 1.88;
+    letter-spacing: 0.33px;
+    text-align: center;
+    color: #757575;
 }
 
-.Student-2-line-2{
+.Student-2-line-base {
     width: 90px;
+}
+
+.Student-2-line {
+    width: 100%;
     height: 1px;
-    border: solid 2px #247ba0;
-    background-color:#247ba0 ;
-    margin-left:4rem;
+    border-top: solid 1px #247ba0;
+    background-color:#247ba0;
     margin-top:4rem; //TODO:this should change to other variable
 }
 
-.Student-2-line-3{
-    width: 90px;
-    height: 1px;
-    border: solid 2px #247ba0;
-    background-color:#247ba0 ;
-    margin-left:7rem;
-    margin-top:4rem; //TODO:this should change to other variable
-}
 
-.Student-2-line-4{
-    width: 60px;
-    height: 1px;
-    border: solid 2px #247ba0;
-    background-color:#247ba0 ;
-    margin-left:4rem;
-    margin-top:4rem; //TODO:this should change to other variable
-}
 .Student-bitmap{
     width: 150px;
     height: 150px;
     object-fit: contain;
+    margin-bottom: 30px;
 }
 
 .Student-pic-intro{
@@ -211,45 +207,35 @@ body::-webkit-scrollbar {
 
 .Student-2-background{
     width: 100%;
-    height: 650px;
     background-color: #ffffff;
 }
-.Student-3-background{
+.Student-3{
+    display: flex;
     width: 100%;
-    height: var(--Student-3-background-height);
     background-color: rgba(244, 244, 248, 0.3);
 }
 
 .Student-3-title-root{
-    margin-left:8.3%;
-    margin-top:7rem;
+   width: 36.33%;
 }
 
 .Student-3-title{
     width: 246px;
-    height: 84px;
+    line-height: 84px;
     font-family: PingFangTC,sans-serif;
     font-size: 60px;
     font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
     letter-spacing: 1.25px;
     color: #242423;
+    margin-bottom: 24px;
 }
 
 .Student-3-subtitle{
     width: 221px;
-    height: 146px;
     font-family: PingFangTC,sans-serif;
     font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 2;
     letter-spacing: 0.5px;
-    margin-top:5%;
-    margin-left:20%;
     color: #757575;
 }
 
@@ -261,12 +247,13 @@ body::-webkit-scrollbar {
 }
 
 .Student-pic-book-1{
-    margin-left:38.6%;
-    margin-top:calc(var( --Student-3-background-height) * 0.112);
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .Student-3-pic-title{
-    width: 200px;
     height: 33px;
     font-family: PingFangTC,sans-serif;
     font-size: 24px;
@@ -278,7 +265,6 @@ body::-webkit-scrollbar {
     color: #242423;
 }
 .Student-3-pic-subtitle{
-    width: 360px;
     height: 60px;
     font-family: PingFangTC,sans-serif;
     font-size: 18px;
@@ -291,54 +277,56 @@ body::-webkit-scrollbar {
 }
 
 .Student-CollegeFeature-margin{
+    width: 48%;
     margin-top:2rem;
-    display:inline-block;
 }
 
-.Student-4-background{
+.Student-4 {
     width: 100%;
-    height: 910px;
     background-color: #ffffff;
 }
+.Student-4-contnet-block {
+    display: flex;
+    margin-top: 98px;
+}
+.Student-4-intro-block {
+    width: 51%;
+}
+.Student-4-img-block {
+    flex: 1;
+    position: relative;
+}
+.Student-4-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 
+}
 .Student-4-p1-title1{
-    width: 270px;
-    height: 33px;
+    line-height: 33px;
     font-family: PingFangTC,sans-serif;
     font-size: 24px;
     font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
     letter-spacing: 0.5px;
     color: #242423;
-
-    margin-top:42.8vh;
-    margin-left:8.3vw;
+    margin-bottom: 24px;
 }
 .Student-4-p1{
-    width: 360px;
     height: 60px;
     font-family: PingFangTC,sans-serif;
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.88;
     letter-spacing: 0.33px;
     color: #757575;
-
-    margin-left:12.5vw;
+    padding-left: 60px;
 }
-
 
 .Student-4-line{
     width: 42px;
     height: 1px;
     border: solid 2px #247ba0;
     background-color: #247ba0;
-    margin-left: 8.3vw;
-    margin-top: 57vh;
+    padding-left: 60px;
 }
 
 .Student-4-pic-rect{
@@ -347,9 +335,8 @@ body::-webkit-scrollbar {
     object-fit: contain;
     border-radius: 3px;
     background-color: #d8d8d8;
-
-    margin-left: 60.8vw;
-    margin-top: 42.1vh;
+    left: 130px;
+    bottom: 40px;
 }
 
 .Student-4-pic-c-shape{
@@ -357,9 +344,8 @@ body::-webkit-scrollbar {
     height: 78px;
     object-fit: contain;
     transform: rotate(0deg);
-
-    margin-left: 52.1vw;
-    margin-top: 73.7vh;
+    left: 0;
+    bottom: 10px;
 }
 
 .Student-4-pic-b-rect {
@@ -368,49 +354,60 @@ body::-webkit-scrollbar {
     object-fit: contain;
     border-radius: 3px;
     background-color: #242423;
-
-    margin-left: 53.8vw;
-    margin-top: 57.3vh;
+    bottom: 0;
+    left: 30px;
 }
 .Student-4-pic-oval{
     width: 133px;
     height: 133px;
     object-fit: contain;
-
-    margin-left:70.8vw;
-    margin-top:59.5vh;
+    bottom: 60px;
+    left: 310px;
 }
 .Student-4-pic-r-rect{
     width: 187px;
     height: 155px;
     object-fit: contain;
     transform: rotate(75deg);
-    /*background-color: #ff6b6b;*/
-
-    margin-left:68.7vw;
-    margin-top:37.7vh;
+    left: 280px;
+    bottom: 255px;
+}
+.Student-4-intro {
+    padding-left: 60px;
+    position: relative;
+}
+.Student-4-intro:before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 42px;
+    border-top: 1px solid #247ba0;
+}
+.Student-4-intro:not(:last-child) {
+    margin-bottom: 18px;
+}
+.Student-5-top-block {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
-.Student-5-background{
+.Student-5 {
     width: 100%;
-    height: 696px;
     background-color: rgba(244, 244, 248, 0.3);
+    text-align: center;
 }
 
-.Student-5-title{
-    width: 246px;
-    height: 84px;
+.Student-5-title {
     font-family: PingFangTC,sans-serif;
     font-size: 60px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
     letter-spacing: 1.25px;
     color: #242423;
-
-    margin-left:8.3vw;
-    margin-top:13.2vh;
+    margin-right: 12px;
+}
+.Student-5-button {
+    justify-items: flex-end;
 }
 
 .Student-5-subtitle{
@@ -426,14 +423,22 @@ body::-webkit-scrollbar {
     color: #5c6b73;
 }
 .Student-5-wrapper{
-    margin-top:1rem;
-    display: grid;
-    grid-template-columns: 4fr 4fr 4fr 4fr;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
+.Student-5-card {
 
+}
+.Student-6-container {
+    display: flex;
+    margin-top: 90px;
+}
 .Student-6-text{
-    width: 166px;
-    height: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 20%;
     font-family: PingFangTC,sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -443,14 +448,6 @@ body::-webkit-scrollbar {
     letter-spacing: 0.38px;
     color: #242423;
     position:relative;
-    float:left;
-}
-
-.Student-6-wrapper{
-    margin-top:1rem;
-    display: grid;
-    grid-template-columns: 6fr 4fr 4fr 4fr 4fr;
-
 }
 
 .Student-bottom-rect-root{
@@ -459,10 +456,11 @@ body::-webkit-scrollbar {
     object-fit: contain;
 
 }
-
+.Student-6-content {
+    margin-bottom: 48px;
+}
 .Level-1-AI {
-    width: 150px;
-    height: 65px;
+    width: 100%;
     font-family: PingFangTC,sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -473,10 +471,58 @@ body::-webkit-scrollbar {
     text-align: center;
     color: #242423;
 }
+.Level-1-AI.Level-1 {
+    padding: 28px 0;
+    background-color: #f1f7f9;
+}
+.Level-1-AI.Level-2 {
+    padding: 42px 0;
+    background-color: #d1f1ff;
+}
+.Level-1-AI.Level-3 {
+    padding: 58px 0;
+    background-color: #97c9de;
+}
+.Level-1-AI.Level-4 {
+    padding: 73px 0;
+    background-color: #6db4d2;
+}
+.Level-1-AI.Level-5 {
+    padding: 88px 0;
+    background-color: #247ba0;
+}
 
 .Student-pic-teacher{
     width: 180px;
     height: 180px;
+}
+.Student-7-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 68px;
+}
+.Student-7-card {
+    width: 32%;
+    display: flex;
+    margin-bottom: 42px;
+}
+.Student-7-card-img-block {
+    width: 50%;
+}
+.Student-7-card-img {
+    width: 100%;
+}
+.Student-7-card-content-block {
+    flex: 1;
+    padding: 18px;
+    background-color: #f1f7f9;
+}
+.Student-7-card-name {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+    margin-bottom: 18px;
 }
 
 .Student-7-teacher-name{
@@ -507,4 +553,22 @@ body::-webkit-scrollbar {
     margin-top:1rem;
     display: grid;
     grid-template-columns: 4fr 4fr 4fr;
+}
+
+.Student-top-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.Student-title-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 54px;
 }

@@ -19,3 +19,7 @@ code {
     maring-right: 5%;
   }
 }
+
+* {
+  box-sizing: border-box;
+}

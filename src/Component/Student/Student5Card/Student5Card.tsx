@@ -10,7 +10,7 @@ export interface Props {
 class Student5Card extends React.Component<Props> {
     render() {
         return (
-            <div className="card" style={{marginLeft: "8.3vw", marginTop: "31vh",position:"relative"}}>
+            <div className="card Student-5-card" style={{position:"relative"}}>
                 <img src={student_fake_photo1}
                      style={{borderRadius: "5px 5px 5px 5px", width: "270px", height: "360px"}}
                      alt="studentFakePhoto1"/>
