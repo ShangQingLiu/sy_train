@@ -5,6 +5,7 @@ import './Student.css'
 import CollegeFeature from './CollegeFeature/CollegeFeature'
 import Student4Intro from "./Student4Intro/Student4Intro";
 import Student5Card from "./Student5Card/Student5Card";
+import { url } from 'inspector'
 
 const logo = require('../Home/img/logo.png');
 const learning = require('./img/learning.png');
@@ -59,92 +60,77 @@ class Home extends React.Component<Props> {
         const student5CardArr = [1, 2, 3, 4];
         const student5Card = student5CardArr.map(() => <Student5Card/>);
         return (
-            <div>
-                <div className="Student-pos-rel">
-                    <div className="Student-pos-abs">
+            <div style={{width: "100%"}}>
+                <div className="Student-pos-rel Student-top-block"
+                    style={{ backgroundImage: `url(${learning})`}}
+                >
+                    <div className="Student-pos-abs Student-logo-block">
                         <img src={logo} className="Student-logo" alt="logo"/>
                     </div>
-                    <div style={{position: "absolute", width: "100%", margin: "auto"}}>
-                        <div className="Student-pos-abs">
-                            <p className="Student-big-quote">{'{'}</p>
-                        </div>
-                        <div className="Student-pos-abs">
-                            <img src={student_title} srcSet={`${student_title_2x} 2x, ${student_title_3x} 3x`}
-                                 className="Student-title" alt="studentTitle"/>
-                        </div>
-                        <div className="Student-pos-abs">
-                            <p className="Student-big-quote Student-big-quote-r">{'}'}</p>
-                        </div>
+                    <div className="Student-title-block">
+                        <span className="Student-big-quote">{'{'}</span>
+                        <img src={student_title} srcSet={`${student_title_2x} 2x, ${student_title_3x} 3x`}
+                                className="Student-title" alt="studentTitle"/>
+                        <span className="Student-big-quote Student-big-quote-r">{'}'}</span>
                     </div>
-                    <div className="Student-pos-abs">
-                        <p className="Student-subtitle Student-subtitle-1">席思人工智能學院{'  |  '} 三大學程</p>
-                    </div>
-                    <div className="Student-pos-abs">
-                        <p className="Student-subtitle Student-subtitle-2">競爭力的培訓課程、實作力的業師團隊、含金力的培訓證書</p>
-                    </div>
-                    <img src={learning} className="Student-learning" alt="learning"/>
+                    <p className="Student-subtitle Student-subtitle-1">席思人工智能學院{'  |  '} 三大學程</p>
+                    <p className="Student-subtitle Student-subtitle-2">競爭力的培訓課程、實作力的業師團隊、含金力的培訓證書</p>
                 </div>
 
-                <div className="Student-pos-rel">
-                    <div className="Student-pos-abs Student-2-margin">
-                        <div className="Student-2-title">席思學院</div>
-                        <div className="Student-2-subtitle">共建AI人才培訓暨認證系統</div>
-                        <div className="Student-2-wrapper">
-                            <div className="Student-2-line-base">
-                                <div className="Student-2-line-1"></div>
-                            </div>
-                            <div>
-                                <img src={student_pic_lightbulb}
-                                     srcSet={`${student_pic_lightbulb_2x} 2x, ${student_pic_lightbulb_3x} 3x`}
-                                     className="Student-bitmap" alt="studentPicLightbulb"/>
-                            </div>
-                            <div className="Student-2-line-base">
-                                <div className="Student-2-line-2"></div>
-                            </div>
-                            <div>
-                                <img src={student_pic_screen}
-                                     srcSet={`${student_pic_screen_2x} 2x, ${student_pic_screen_3x} 3x`}
-                                     className="Student-bitmap" alt="studentPicScreen"/>
-                            </div>
-                            <div className="Student-2-line-base">
-                                <div className="Student-2-line-3"></div>
-                            </div>
-                            <div>
-                                <img src={student_pic_student}
-                                     srcSet={`${student_pic_student_2x} 2x, ${student_pic_student_3x} 3x`}
-                                     className="Student-bitmap" alt="studentPicStudent"/>
-                            </div>
-                            <div className="Student-2-line-base">
-                                <div className="Student-2-line-4"></div>
-                            </div>
+                <div className="Student-pos-rel Student-2 Student-2-background Student-block">
+                    <div className="Student-2-title">席思學院</div>
+                    <div className="Student-2-subtitle">共建AI人才培訓暨認證系統</div>
+                    <div className="Student-2-wrapper">
+                        <div className="Student-2-line-base">
+                            <div className="Student-2-line"></div>
                         </div>
-                        <div className="Student-pic-intro Student-pic-intro-1">
-                            <div>
-                                成為具企業所需之即戰力AI工程師、<br/>
-                                軟體工程師、資料科學家、機器學習<br/>
+                        <div className="Student-2-feature-block">
+                            <img src={student_pic_lightbulb}
+                                    srcSet={`${student_pic_lightbulb_2x} 2x, ${student_pic_lightbulb_3x} 3x`}
+                                    className="Student-bitmap" alt="studentPicLightbulb"/>
+                            <div className="Student-2-feature-block-title">企業學程</div>
+                            <div className="Student-2-feature-block-content">
+                                成為具企業所需之即戰力AI工程師、
+                                軟體工程師、資料科學家、機器學習
                                 與深度學習工程師
                             </div>
                         </div>
-                        <div className="Student-pic-intro Student-pic-intro-2">
-                            <div>
-                                成為具企業所需之即戰力AI工程師、<br/>
-                                軟體工程師、資料科學家、機器學習<br/>
+                        <div className="Student-2-line-base">
+                            <div className="Student-2-line"></div>
+                        </div>
+                        <div className="Student-2-feature-block">
+                            <img src={student_pic_screen}
+                                    srcSet={`${student_pic_screen_2x} 2x, ${student_pic_screen_3x} 3x`}
+                                    className="Student-bitmap" alt="studentPicScreen"/>
+                            <div className="Student-2-feature-block-title">企業學程</div>
+                            <div className="Student-2-feature-block-content">
+                                成為具企業所需之即戰力AI工程師、
+                                軟體工程師、資料科學家、機器學習
                                 與深度學習工程師
                             </div>
                         </div>
-                        <div className="Student-pic-intro Student-pic-intro-3">
-                            <div>
-                                成為具企業所需之即戰力AI工程師、<br/>
-                                軟體工程師、資料科學家、機器學習<br/>
+                        <div className="Student-2-line-base">
+                            <div className="Student-2-line"></div>
+                        </div>
+                        <div className="Student-2-feature-block">
+                            <img src={student_pic_student}
+                                    srcSet={`${student_pic_student_2x} 2x, ${student_pic_student_3x} 3x`}
+                                    className="Student-bitmap" alt="studentPicStudent"/>
+                            <div className="Student-2-feature-block-title">企業學程</div>
+                            <div className="Student-2-feature-block-content">
+                                成為具企業所需之即戰力AI工程師、
+                                軟體工程師、資料科學家、機器學習
                                 與深度學習工程師
                             </div>
+                        </div>
+                        <div className="Student-2-line-base">
+                            <div className="Student-2-line"></div>
                         </div>
                     </div>
-                    <div className="Student-2-background"></div>
                 </div>
 
-                <div className="Student-pos-rel">
-                    <div className="Student-pos-abs Student-3-title-root">
+                <div className="Student-pos-rel Student-3 Student-block">
+                    <div className="Student-3-title-root">
                         <div className="Student-3-title">學院特色</div>
                         <div className="Student-3-subtitle">
                             <div>
@@ -154,77 +140,58 @@ class Home extends React.Component<Props> {
                             </div>
                         </div>
                     </div>
-                    <div className="Student-pos-abs Student-pic-book-1">
+                    <div className="Student-pic-book-1">
                         {collegeFeatures}
                     </div>
-                    <div className="Student-3-background"></div>
                 </div>
 
-                <div className="Student-pos-rel">
-                    <div className="Student-pos-abs Student-2-margin">
-                        <div className="Student-2-title">教學特色</div>
-                        <div className="Student-2-subtitle">共建AI人才培訓暨認證系統</div>
-                    </div>
-                    <div className="Student-pos-abs">
-                        <div className="Student-4-p1-title1">
-                            你可以放介紹文字在這裡
+                <div className="Student-pos-rel Student-4 Student-block">
+                    <div className="Student-2-title">教學特色</div>
+                    <div className="Student-2-subtitle">共建AI人才培訓暨認證系統</div>
+                    <div className="Student-4-contnet-block">
+                        <div className="Student-4-intro-block">
+                            <div className="Student-4-p1-title1">
+                                你可以放介紹文字在這裡
+                            </div>
+                            <div className="Student-4-p1">
+                                介紹文案介紹文案介紹文案介紹文案介紹文案介紹文案介紹文案介紹文案
+                            </div>
+                            {student4Intro}
                         </div>
-                        <div className="Student-4-p1">
-                            介紹文案介紹文案介紹文案介紹文案介紹文案介紹文案介紹文案介紹文案
-                        </div>
-                        {student4Intro}
-                    </div>
-
-                    <div className="Student-pos-abs">
-                        <div className="Student-4-line"></div>
-                        <div className="Student-4-line" style={{marginTop: "9.5vh"}}></div>
-                        <div className="Student-4-line" style={{marginTop: "9.5vh"}}></div>
-                    </div>
-                    <div>
-                        <div className="Student-pos-abs">
-                            <img src={student_pic_oval} className="Student-4-pic-oval" alt="studentPicOval"/>
-                        </div>
-                        <div className="Student-pos-abs">
-                            <img src={student_pic_r_rect} className="Student-4-pic-r-rect" alt="studentPicRRect"/>
-                        </div>
-                        <div className="Student-pos-abs">
-                            <img src={student_pic_c_shape} className="Student-4-pic-c-shape" alt="studentPicCShape"/>
-                        </div>
-                        <div className="Student-pos-abs">
-                            <img src={student_pic_b_rect} className="Student-4-pic-b-rect" alt="studentPicBRect"/>
-                        </div>
-                        <div className="Student-pos-abs">
-                            <img src={student_pic_rect} className="Student-4-pic-rect" alt="studentPicRect"/>
+                        <div className="Student-4-img-block">
+                            <div className="Student-4-img">
+                                <img src={student_pic_oval} className="Student-pos-abs Student-4-pic-oval" alt="studentPicOval"/>
+                                <img src={student_pic_r_rect} className="Student-pos-abs Student-4-pic-r-rect" alt="studentPicRRect"/>
+                                <img src={student_pic_c_shape} className="Student-pos-abs Student-4-pic-c-shape" alt="studentPicCShape"/>
+                                <img src={student_pic_b_rect} className="Student-pos-abs Student-4-pic-b-rect" alt="studentPicBRect"/>
+                                <img src={student_pic_rect} className="Student-pos-abs Student-4-pic-rect" alt="studentPicRect"/>
+                            </div>
                         </div>
                     </div>
-                    <div className="Student-4-background"></div>
+                    
                 </div>
 
-                <div className="Student-pos-rel">
-                    <div className="Student-pos-abs">
-                        <span className="Student-5-title" style={{float: "left"}}>
-                            成果展示
-                        </span>
-                        <span className="Student-5-subtitle"
-                              style={{float: "left", marginLeft: "0.8vw", marginTop: "16.5vh"}}>
-                            介紹文字
-                        </span>
-                        <button className="button1" style={{marginLeft: "46.7vw", marginTop: "15.1vh"}}>最新课程</button>
+                <div className="Student-pos-rel Student-5 Student-block">
+                    <div className="Student-5-top-block">
+                        <div className="Student-5-title-block">
+                            <span className="Student-5-title">成果展示</span>
+                            <span className="Student-5-subtitle">介紹文字</span>
+                        </div>
+                        <button className="button1 Student-5-button">最新课程</button>
                     </div>
-                    <div className="Student-pos-abs Student-5-wrapper">
+                    <div className="Student-5-wrapper">
                         {student5Card}
                     </div>
-                    <div className="Student-5-background"></div>
                 </div>
 
-                <div className="Student-pos-rel">
-                    <div className="Student-pos-abs Student-2-margin">
+                <div className="Student-pos-rel Student-6 Student-block">
+                    <div className="Student-2-margin">
                         <div className="Student-2-title">課程班別介紹</div>
                         <div className="Student-2-subtitle">世界級專業顧問</div>
                     </div>
-                    <div className="Student-pos-abs ">
-                        <div className="Student-6-text" style={{marginLeft: "21.1vw", marginTop: "53.1vh"}}>
-                            <span>
+                    <div className="Student-6-container">
+                        <div className="Student-6-text">
+                            <div className="Student-6-content">
                             時程：12hr/2天<br/>
                             難度：無需程式基礎<br/>
                             課程內容：<br/>
@@ -233,11 +200,12 @@ class Home extends React.Component<Props> {
                             效益：<br/>
                             1.AI重點概念掌握<br/>
                             2.建立AI程式語言
-                            </span>
+                            </div>
+                            <div className="Level-1-AI Level-1">Level 1 <br/>AI程式邏輯班</div>
                         </div>
 
-                        <div className="Student-6-text" style={{marginLeft: "4.1vw", marginTop: "49.7vh"}}>
-                            <span>
+                        <div className="Student-6-text">
+                            <div className="Student-6-content">
                             時程：12hr/2天<br/>
                             難度：無需程式基礎<br/>
                             課程內容：<br/>
@@ -246,11 +214,12 @@ class Home extends React.Component<Props> {
                             效益：<br/>
                             1.AI重點概念掌握<br/>
                             2.建立AI程式語言
-                            </span>
+                            </div>
+                            <div className="Level-1-AI Level-2">Level 1 <br/>AI程式邏輯班</div>
                         </div>
 
-                        <div className="Student-6-text" style={{marginLeft: "4.1vw", marginTop: "46.3vh"}}>
-                            <span>
+                        <div className="Student-6-text">
+                            <div className="Student-6-content">
                             時程：12hr/2天<br/>
                             難度：無需程式基礎<br/>
                             課程內容：<br/>
@@ -259,11 +228,12 @@ class Home extends React.Component<Props> {
                             效益：<br/>
                             1.AI重點概念掌握<br/>
                             2.建立AI程式語言
-                            </span>
+                            </div>
+                            <div className="Level-1-AI Level-3">Level 1 <br/>AI程式邏輯班</div>
                         </div>
 
-                        <div className="Student-6-text" style={{marginLeft: "4.1vw", marginTop: "42.9vh"}}>
-                            <span>
+                        <div className="Student-6-text">
+                            <div className="Student-6-content">
                             時程：12hr/2天<br/>
                             難度：無需程式基礎<br/>
                             課程內容：<br/>
@@ -272,11 +242,12 @@ class Home extends React.Component<Props> {
                             效益：<br/>
                             1.AI重點概念掌握<br/>
                             2.建立AI程式語言
-                            </span>
+                            </div>
+                            <div className="Level-1-AI Level-4">Level 1 <br/>AI程式邏輯班</div>
                         </div>
 
-                        <div className="Student-6-text" style={{marginLeft: "4.1vw", marginTop: "39.5vh"}}>
-                            <span>
+                        <div className="Student-6-text">
+                            <div className="Student-6-content">
                             時程：12hr/2天<br/>
                             難度：無需程式基礎<br/>
                             課程內容：<br/>
@@ -285,134 +256,103 @@ class Home extends React.Component<Props> {
                             效益：<br/>
                             1.AI重點概念掌握<br/>
                             2.建立AI程式語言
-                            </span>
+                            </div>
+                            <div className="Level-1-AI Level-5">Level 1 <br/>AI程式邏輯班</div>
                         </div>
                     </div>
-                    <div className="Student-pos-abs">
-                        <span className="Level-1-AI" style={{position: "absolute", left: "21.8vw", top: "87.6vh"}}>Level 1 <br/>AI程式邏輯班</span>
-                        <img src={student_bottom_rect1} className="Student-bottom-rect-root" alt="studentBottomRect1"
-                             style={{marginLeft: "19.5vw", marginTop: "83.7vh"}}/>
-                    </div>
-                    <div className="Student-pos-abs">
-                        <span className="Level-1-AI" style={{position: "absolute", left: "34.3vw", top: "84.6vh"}}>Level 1 <br/>AI程式邏輯班</span>
-                        <img src={student_bottom_rect2} className="Student-bottom-rect-root" alt="studentBottomRect2"
-                             style={{marginLeft: "32vw", marginTop: "80.8vh", height: "150px"}}/>
-                    </div>
-                    <div className="Student-pos-abs">
-                        <span className="Level-1-AI" style={{position: "absolute", left: "46.8vw", top: "81.6vh"}}>Level 1 <br/>AI程式邏輯班</span>
-                        <img src={student_bottom_rect3} className="Student-bottom-rect-root" alt="studentBottomRect3"
-                             style={{marginLeft: "44.5vw", marginTop: "77.8vh", height: "180px"}}/>
-                    </div>
-                    <div className="Student-pos-abs">
-                        <span className="Level-1-AI" style={{position: "absolute", left: "59.3vw", top: "78.6vh"}}>Level 1 <br/>AI程式邏輯班</span>
-                        <img src={student_bottom_rect4} className="Student-bottom-rect-root" alt="studentBottomRect4"
-                             style={{marginLeft: "57vw", marginTop: "74.8vh", height: "210px"}}/>
-                    </div>
-                    <div className="Student-pos-abs">
-                        <span className="Level-1-AI" style={{position: "absolute", left: "71.8vw", top: "75.6vh"}}>Level 1 <br/>AI程式邏輯班</span>
-                        <img src={student_bottom_rect5} className="Student-bottom-rect-root" alt="studentBottomRect5"
-                             style={{marginLeft: "69.5vw", marginTop: "71.9vh", height: "240px"}}/>
-                    </div>
-                    <div className="Student-2-background" style={{height: "1000px"}}></div>
                 </div>
 
                 {/*page-7*/}
-                <div className="Student-pos-rel Student-7" >
-                    <div style={{padding: "90px 0px 0px"}}>
+                <div className="Student-pos-rel Student-7 Student-block" >
+                    <div>
                         <div className="Student-2-title">師資介紹</div>
                         <div className="Student-2-subtitle">世界級專業顧問</div>
                     </div>
-                    <div style={{display: "flex",padding:"8.4%",justifyContent:"center"}}>
-                        <div className="card-7-outline" style={{width:"25%"}}>
-                            <div className="card" style={{width:"100%",display:"flex",height:"180px"}}>
-                                <div style={{width:"180px",height:"180px"}}>
-                                    <img style={{width:"100%",height:"100%"}} src={student_pic_teacher} alt="studentPicTeacher"/>
-                                </div>
-                                <div>
-                                    <h3>名字</h3>
-                                    <span className="Student-7-span">
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                    </span>
-                                </div>
+                    <div className="Student-7-container">
+                        <div className="Student-7-card">
+                            <div className="Student-7-card-img-block">
+                                <img className="Student-7-card-img" src={student_pic_teacher} alt="studentPicTeacher"/>
                             </div>
-                            <div className="card" style={{width:"100%",display:"flex",height:"180px"}}>
-                                <div style={{width:"180px",height:"180px"}}>
-                                    <img style={{width:"100%",height:"100%"}} src={student_pic_teacher} alt="studentPicTeacher"/>
-                                </div>
-                                <div>
-                                    <h3>名字</h3>
-                                    <span className="Student-7-span">
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                    </span>
-                                </div>
+                            <div className="Student-7-card-content-block">
+                                <div className="Student-7-card-name">名字</div>
+                                <span className="Student-7-span">
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                </span>
                             </div>
                         </div>
-                        <div className="card-7-outline">
-                            <div className="card" style={{width:"100%",display:"flex",height:"180px"}}>
-                                <div style={{width:"180px",height:"180px"}}>
-                                    <img style={{width:"100%",height:"100%"}} src={student_pic_teacher} alt="studentPicTeacher"/>
-                                </div>
-                                <div>
-                                    <h3>名字</h3>
-                                    <span className="Student-7-span">
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                    </span>
-                                </div>
+                        <div className="Student-7-card">
+                            <div className="Student-7-card-img-block">
+                                <img className="Student-7-card-img" src={student_pic_teacher} alt="studentPicTeacher"/>
                             </div>
-                            <div className="card" style={{width:"100%",display:"flex",height:"180px"}}>
-                                <div style={{width:"180px",height:"180px"}}>
-                                    <img style={{width:"100%",height:"100%"}} src={student_pic_teacher} alt="studentPicTeacher"/>
-                                </div>
-                                <div>
-                                    <h3>名字</h3>
-                                    <span className="Student-7-span">
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                    </span>
-                                </div>
+                            <div className="Student-7-card-content-block">
+                                <div className="Student-7-card-name">名字</div>
+                                <span className="Student-7-span">
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                </span>
                             </div>
                         </div>
-                        <div className="card-7-outline">
-                            <div className="card" style={{width:"100%",display:"flex",height:"180px"}}>
-                                <div style={{width:"180px",height:"180px"}}>
-                                    <img style={{width:"100%",height:"100%"}} src={student_pic_teacher} alt="studentPicTeacher"/>
-                                </div>
-                                <div>
-                                    <h3>名字</h3>
-                                    <span className="Student-7-span">
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                    </span>
-                                </div>
+                        <div className="Student-7-card">
+                            <div className="Student-7-card-img-block">
+                                <img className="Student-7-card-img" src={student_pic_teacher} alt="studentPicTeacher"/>
                             </div>
-                            <div className="card" style={{width:"100%",display:"flex",height:"180px"}}>
-                                <div style={{width:"180px",height:"180px"}}>
-                                    <img style={{width:"100%",height:"100%"}} src={student_pic_teacher} alt="studentPicTeacher"/>
-                                </div>
-                                <div>
-                                    <h3>名字</h3>
-                                    <span className="Student-7-span">
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                        經歷...1<br/>
-                                    </span>
-                                </div>
+                            <div className="Student-7-card-content-block">
+                                <div className="Student-7-card-name">名字</div>
+                                <span className="Student-7-span">
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                </span>
+                            </div>
+                        </div>
+                        <div className="Student-7-card">
+                            <div className="Student-7-card-img-block">
+                                <img className="Student-7-card-img" src={student_pic_teacher} alt="studentPicTeacher"/>
+                            </div>
+                            <div className="Student-7-card-content-block">
+                                <div className="Student-7-card-name">名字</div>
+                                <span className="Student-7-span">
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                </span>
+                            </div>
+                        </div>
+                        <div className="Student-7-card">
+                            <div className="Student-7-card-img-block">
+                                <img className="Student-7-card-img" src={student_pic_teacher} alt="studentPicTeacher"/>
+                            </div>
+                            <div className="Student-7-card-content-block">
+                                <div className="Student-7-card-name">名字</div>
+                                <span className="Student-7-span">
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                </span>
+                            </div>
+                        </div>
+                        <div className="Student-7-card">
+                            <div className="Student-7-card-img-block">
+                                <img className="Student-7-card-img" src={student_pic_teacher} alt="studentPicTeacher"/>
+                            </div>
+                            <div className="Student-7-card-content-block">
+                                <div className="Student-7-card-name">名字</div>
+                                <span className="Student-7-span">
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                    經歷...1<br/>
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 {/*page-8*/}
-                <div className="Student-8">
-                    <div style={{width:"61.2%"}}>
+                <div className="Student-8 Student-block">
+                    <div className="Student-8-report">
                         <div className="Student-8-h1">活動報導</div>
                         <div className="Student-8-subtitle">介紹文字</div>
                         <div className="Student-8-outline1">
@@ -458,7 +398,7 @@ class Home extends React.Component<Props> {
                             </div>
                         </div>
                     </div>
-                    <div style={{width:"22.2%",display:"flex",flexDirection:"column"}}>
+                    <div className="Student-8-recommend">
                         <div className="Student-8-h1">教材推薦</div>
                         <div className="Student-8-subtitle">介紹文字</div>
                         <div className="Student-8-rect2">
