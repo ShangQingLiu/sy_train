@@ -10,16 +10,9 @@ export interface Props {
 class Student5Card extends React.Component<Props> {
     render() {
         return (
-            <div className="card Student-5-card" style={{position:"relative"}}>
-                <img src={student_fake_photo1}
-                     style={{borderRadius: "5px 5px 5px 5px", width: "270px", height: "360px"}}
-                     alt="studentFakePhoto1"/>
-                <div className="pic-intro" style={{
-                    position:"absolute",
-                    top: "255px",
-                    left: "18px",
-                    zIndex:2
-                }}>我是介紹文案我是介紹文案我是介紹文案我是介紹文案我是介紹文案
+
+            <div className="card" style={{position:"relative", backgroundImage: `url(${student_fake_photo1})`}}>
+                <div className="pic-intro">我是介紹文案我是介紹文案我是介紹文案我是介紹文案我是介紹文案
                 </div>
             </div>
         )

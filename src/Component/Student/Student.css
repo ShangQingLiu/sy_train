@@ -1,8 +1,3 @@
-/* :root{
-    --Student-big-quote-margin-left:30vw;
-    --Student-big-quote-margin-top:17rem;
-    --Student-3-background-height:650px;
-} */
 body::-webkit-scrollbar {
     display: none;
 }
@@ -11,20 +6,13 @@ p {
     margin: 0;
 }
 
-/*.cards{*/
-/*    &:not(nth-child(3n)){*/
-/*        margin-right:5%;*/
-/*    }*/
-/*}*/
 
-
-
-.button1{
+.button1 {
     width: 146px;
     height: 57px;
     border-radius: 6px;
     background-color: #247ba0;
-    font-family: PingFangTC,sans-serif;
+    font-family: PingFangTC, sans-serif;
     font-size: 18px;
     font-weight: 500;
     font-style: normal;
@@ -36,109 +24,35 @@ p {
 }
 
 
-.Student-pos-rel{
-    position:relative;
+.Student-pos-rel {
+    position: relative;
 }
-.Student-pos-abs{
-    position:absolute;
+
+.Student-pos-abs {
+    position: absolute;
 }
+
 .Student-logo-block {
     top: 2rem;
     left: 3rem;
     width: 221px;
     height: auto;
-    display:block;
+    display: block;
 }
-.Student-logo{
+
+.Student-logo {
     width: 100%;
 }
-.Student-block {
-    padding: 90px 120px;
-}
-.Student-learning{
+
+
+.Student-learning {
     object-fit: cover;
     width: 100%;
     height: 40rem;
-    display:block;
+    display: block;
 }
 
-.Student-big-quote{
-    width: 43px;
-    height: 84px;
-    font-family: PingFangTC,sans-serif;
-    font-size: 60px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 1.25px;
-    margin-left:var(--Student-big-quote-margin-left);
-    margin-top:var(--Student-big-quote-margin-top);
-    color: #f5f5f5;
-}
 
-.Student-big-quote-r{
-    margin-left:calc(var(--Student-big-quote-margin-left) + 45rem);
-}
-
-.Student-title{
-    margin-left:calc(var(--Student-big-quote-margin-left) + 2.1rem);
-    margin-top:calc(var(--Student-big-quote-margin-top) + 1rem);
-}
-
-.Student-subtitle{
-    font-family: PingFangTC,sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.75;
-    letter-spacing: 0.5px;
-    text-align: center;
-    color: #f5f5f5;
-}
-.Student-2 {
-}
-
-.Student-2-title{
-    width: 100%;
-    height: 84px;
-    font-family: PingFangTC,sans-serif;
-    font-size: 60px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 1.25px;
-    text-align:center;
-    color: #242423;
-}
-
-.Student-2-subtitle{
-    width: 100%;
-    height: 41px;
-    font-family: PingFangTC,sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.37;
-    letter-spacing: 0.63px;
-    text-align: center;
-    color: #757575;
-    margin-top:1rem;
-}
-
-.Student-2-wrapper{
-    margin-top: 98px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.Student-2-feature-block {
-    text-align: center;
-    flex: 1;
-}
 .Student-2-feature-block-title {
     text-align: center;
     font-size: 24px;
@@ -147,6 +61,7 @@ p {
     line-height: 33px;
     margin-bottom: 12px;
 }
+
 .Student-2-feature-block-content {
     line-height: 1.88;
     letter-spacing: 0.33px;
@@ -154,30 +69,20 @@ p {
     color: #757575;
 }
 
-.Student-2-line-base {
-    width: 90px;
-}
-
-.Student-2-line {
-    width: 100%;
-    height: 1px;
-    border-top: solid 1px #247ba0;
-    background-color:#247ba0;
-    margin-top:4rem; //TODO:this should change to other variable
-}
 
 
-.Student-bitmap{
+
+.Student-bitmap {
     width: 150px;
     height: 150px;
     object-fit: contain;
     margin-bottom: 30px;
 }
 
-.Student-pic-intro{
+.Student-pic-intro {
     width: 300px;
     height: 90px;
-    font-family: PingFangTC,sans-serif;
+    font-family: PingFangTC, sans-serif;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -187,75 +92,50 @@ p {
     text-align: center;
     color: #757575;
     display: inline-block;
-    margin-top:2%;
+    margin-top: 2%;
 }
 
 
-.Student-pic-intro-1{
-   margin-left:10vw;
-}
-.Student-pic-intro-2{
-    margin-left:17vw;
-}
-.Student-pic-intro-3{
-    margin-left:13vw;
+.Student-pic-intro-1 {
+    margin-left: 10vw;
 }
 
-.Student-2-margin{
-    width:100%;
+.Student-pic-intro-2 {
+    margin-left: 17vw;
 }
 
-.Student-2-background{
+.Student-pic-intro-3 {
+    margin-left: 13vw;
+}
+
+.Student-2-margin {
+    width: 100%;
+}
+
+.Student-2-background {
     width: 100%;
     background-color: #ffffff;
 }
-.Student-3{
-    display: flex;
-    width: 100%;
-    background-color: rgba(244, 244, 248, 0.3);
-}
 
-.Student-3-title-root{
-   width: 36.33%;
-}
 
-.Student-3-title{
-    width: 246px;
-    line-height: 84px;
-    font-family: PingFangTC,sans-serif;
-    font-size: 60px;
-    font-weight: 500;
-    letter-spacing: 1.25px;
-    color: #242423;
-    margin-bottom: 24px;
-}
 
-.Student-3-subtitle{
-    width: 221px;
-    font-family: PingFangTC,sans-serif;
-    font-size: 24px;
-    line-height: 2;
-    letter-spacing: 0.5px;
-    color: #757575;
-}
 
-.Student-pic-book{
+.Student-pic-book {
     width: 60px;
     height: 60px;
     object-fit: contain;
     opacity: 0.7;
 }
 
-.Student-pic-book-1{
+.Student-pic-book-1 {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.Student-3-pic-title{
-    height: 33px;
-    font-family: PingFangTC,sans-serif;
+.Student-3-pic-title {
+    font-family: PingFangTC, sans-serif;
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
@@ -264,64 +144,21 @@ p {
     letter-spacing: 0.5px;
     color: #242423;
 }
-.Student-3-pic-subtitle{
-    height: 60px;
-    font-family: PingFangTC,sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.67;
-    letter-spacing: 0.38px;
-    color: #757575;
-}
 
-.Student-CollegeFeature-margin{
-    width: 48%;
-    margin-top:2rem;
-}
+
 
 .Student-4 {
     width: 100%;
     background-color: #ffffff;
 }
-.Student-4-contnet-block {
-    display: flex;
-    margin-top: 98px;
-}
-.Student-4-intro-block {
-    width: 51%;
-}
-.Student-4-img-block {
-    flex: 1;
-    position: relative;
-}
-.Student-4-img {
-    position: absolute;
-    left: 0;
-    bottom: 0;
 
-}
-.Student-4-p1-title1{
-    line-height: 33px;
-    font-family: PingFangTC,sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    color: #242423;
-    margin-bottom: 24px;
-}
-.Student-4-p1{
-    height: 60px;
-    font-family: PingFangTC,sans-serif;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.33px;
-    color: #757575;
-    padding-left: 60px;
-}
 
-.Student-4-line{
+
+
+
+
+
+.Student-4-line {
     width: 42px;
     height: 1px;
     border: solid 2px #247ba0;
@@ -329,7 +166,7 @@ p {
     padding-left: 60px;
 }
 
-.Student-4-pic-rect{
+.Student-4-pic-rect {
     width: 270px;
     height: 330px;
     object-fit: contain;
@@ -339,7 +176,7 @@ p {
     bottom: 40px;
 }
 
-.Student-4-pic-c-shape{
+.Student-4-pic-c-shape {
     width: 83.1px;
     height: 78px;
     object-fit: contain;
@@ -357,14 +194,16 @@ p {
     bottom: 0;
     left: 30px;
 }
-.Student-4-pic-oval{
+
+.Student-4-pic-oval {
     width: 133px;
     height: 133px;
     object-fit: contain;
     bottom: 60px;
     left: 310px;
 }
-.Student-4-pic-r-rect{
+
+.Student-4-pic-r-rect {
     width: 187px;
     height: 155px;
     object-fit: contain;
@@ -372,10 +211,8 @@ p {
     left: 280px;
     bottom: 255px;
 }
-.Student-4-intro {
-    padding-left: 60px;
-    position: relative;
-}
+
+
 .Student-4-intro:before {
     content: '';
     position: absolute;
@@ -384,14 +221,11 @@ p {
     width: 42px;
     border-top: 1px solid #247ba0;
 }
+
 .Student-4-intro:not(:last-child) {
     margin-bottom: 18px;
 }
-.Student-5-top-block {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
+
 
 .Student-5 {
     width: 100%;
@@ -399,69 +233,23 @@ p {
     text-align: center;
 }
 
-.Student-5-title {
-    font-family: PingFangTC,sans-serif;
-    font-size: 60px;
-    letter-spacing: 1.25px;
-    color: #242423;
-    margin-right: 12px;
-}
-.Student-5-button {
-    justify-items: flex-end;
-}
 
-.Student-5-subtitle{
-    width: 123px;
-    height: 41px;
-    font-family: PingFangTC,sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.37;
-    letter-spacing: 0.63px;
-    color: #5c6b73;
-}
-.Student-5-wrapper{
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-}
-.Student-5-card {
 
-}
-.Student-6-container {
-    display: flex;
-    margin-top: 90px;
-}
-.Student-6-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 20%;
-    font-family: PingFangTC,sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.67;
-    letter-spacing: 0.38px;
-    color: #242423;
-    position:relative;
-}
 
-.Student-bottom-rect-root{
+
+
+
+.Student-bottom-rect-root {
     width: 240px;
     height: 120px;
     object-fit: contain;
 
 }
-.Student-6-content {
-    margin-bottom: 48px;
-}
+
+
 .Level-1-AI {
     width: 100%;
-    font-family: PingFangTC,sans-serif;
+    font-family: PingFangTC, sans-serif;
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
@@ -471,64 +259,38 @@ p {
     text-align: center;
     color: #242423;
 }
-.Level-1-AI.Level-1 {
-    padding: 28px 0;
-    background-color: #f1f7f9;
-}
-.Level-1-AI.Level-2 {
-    padding: 42px 0;
-    background-color: #d1f1ff;
-}
-.Level-1-AI.Level-3 {
-    padding: 58px 0;
-    background-color: #97c9de;
-}
-.Level-1-AI.Level-4 {
-    padding: 73px 0;
-    background-color: #6db4d2;
-}
-.Level-1-AI.Level-5 {
-    padding: 88px 0;
-    background-color: #247ba0;
-}
 
-.Student-pic-teacher{
+
+
+.Student-pic-teacher {
     width: 180px;
     height: 180px;
 }
+
 .Student-7-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 68px;
 }
-.Student-7-card {
-    width: 32%;
-    display: flex;
-    margin-bottom: 42px;
-}
-.Student-7-card-img-block {
-    width: 50%;
-}
+
+
+
 .Student-7-card-img {
     width: 100%;
 }
+
 .Student-7-card-content-block {
     flex: 1;
     padding: 18px;
     background-color: #f1f7f9;
 }
-.Student-7-card-name {
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 33px;
-    margin-bottom: 18px;
-}
 
-.Student-7-teacher-name{
+
+.Student-7-teacher-name {
     width: 50px;
     height: 33px;
-    font-family: PingFangTC,sans-serif;
+    font-family: PingFangTC, sans-serif;
     font-size: 24px;
     font-weight: 300;
     font-style: normal;
@@ -537,10 +299,11 @@ p {
     letter-spacing: 0.5px;
     color: #242423;
 }
-.Student-7-teacher-experience{
+
+.Student-7-teacher-experience {
     width: 75px;
     height: 77px;
-    font-family: PingFangTC,sans-serif;
+    font-family: PingFangTC, sans-serif;
     font-size: 18px;
     font-weight: 300;
     font-style: normal;
@@ -549,21 +312,11 @@ p {
     letter-spacing: 0.38px;
     color: #757575;
 }
-.Student-7-wrapper{
-    margin-top:1rem;
+
+.Student-7-wrapper {
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: 4fr 4fr 4fr;
-}
-
-.Student-top-block {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
 }
 
 .Student-title-block {
