@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 
 const star = require('./img/star.png');
 const star2x = require('./img/star@2x.png');

@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a28eee2c-230c-467b-ba60-8b60ba9c7c1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/Home/Home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Home/img/homePicCover.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Student/StarGen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Student/SysCollege/SysCollege.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Student/SysCollege/SysCollege.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Home/img/homePicCoverLeft.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Home/img/homePicCoverRight.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Home/img/path-2@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Home/img/path-2@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Student/CollegeFeature/CollegeFeature.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Student/CollegeFeature/CollegeFeature.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Student/Student.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Student/Student.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Student/Student.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Student/Student.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Student/Student.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Student/Student.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Student/Student4Intro/Student4Intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Student/Student4Intro/Student4Intro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Student/Student5Card/Student5Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Student/Student5Card/Student5Card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Student/Student5Card/Student5Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Student/Student5Card/Student5Card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Student/img/learning.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Student/img/learning.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Student/img/learning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="108">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -51,53 +45,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Component/Student/Student.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="4887">
+              <caret line="190" column="31" selection-start-line="190" selection-start-column="31" selection-end-line="190" selection-end-column="31" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Component/Home/Home.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Component/Home/Home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Component/Home/Home.scss">
+        <entry file="file://$PROJECT_DIR$/src/Component/Student/StarGen.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="226" column="4" selection-start-line="226" selection-start-column="4" selection-end-line="226" selection-end-column="4" />
+            <state relative-caret-position="243">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Component/Student/Student.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15930">
+              <caret line="590" column="36" selection-start-line="590" selection-start-column="36" selection-end-line="590" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Component/Student/Student.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7614">
+              <caret line="282" selection-start-line="282" selection-end-line="282" />
             </state>
           </provider>
         </entry>
@@ -108,6 +90,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -128,33 +111,41 @@
         <option value="$PROJECT_DIR$/src/Home.css" />
         <option value="$PROJECT_DIR$/src/Component/Home/img/homePicCoverRight.svg" />
         <option value="$PROJECT_DIR$/src/Component/Student/CollegeFeature/CollegeFeature.css" />
-        <option value="$PROJECT_DIR$/src/Component/Student/CollegeFeature/CollegeFeature.tsx" />
         <option value="$PROJECT_DIR$/src/Component/Student/Student4Intro/Student4Intro.tsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Component/Student/Student4Intro/Student4Intro.css" />
         <option value="$PROJECT_DIR$/src/Component/Student/Student5Card/Student5Card.css" />
         <option value="$PROJECT_DIR$/src/Component/Student/Student5Card/Student5Card.tsx" />
-        <option value="$PROJECT_DIR$/src/Component/Student/Student.css" />
-        <option value="$PROJECT_DIR$/src/Component/Student/Student.scss" />
         <option value="$PROJECT_DIR$/src/Component/Home/img/homePicCoverLeft.svg" />
         <option value="$PROJECT_DIR$/src/Component/Home/img/homePicCover.svg" />
         <option value="$PROJECT_DIR$/src/Component/Home/img/path-2.svg" />
         <option value="$PROJECT_DIR$/src/Component/Home/img/path-1.svg" />
         <option value="$PROJECT_DIR$/src/Component/Home/img/homePicCoverMobile.svg" />
         <option value="$PROJECT_DIR$/src/Component/Home/Home.css" />
-        <option value="$PROJECT_DIR$/src/Component/Student/Student.tsx" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
-        <option value="$PROJECT_DIR$/src/app.tsx" />
         <option value="$PROJECT_DIR$/src/Component/Home/Home.tsx" />
         <option value="$PROJECT_DIR$/src/Component/Home/Home.scss" />
+        <option value="$PROJECT_DIR$/src/Component/Profession/Student.tsx" />
+        <option value="$PROJECT_DIR$/src/app.tsx" />
+        <option value="$PROJECT_DIR$/src/Component/Student/CollegeFeature/CollegeFeature.tsx" />
+        <option value="$PROJECT_DIR$/src/Component/Profession/Profession.tsx" />
+        <option value="$PROJECT_DIR$/src/Component/Student/Student.css" />
+        <option value="$PROJECT_DIR$/src/Component/Profession/Profession.css" />
+        <option value="$PROJECT_DIR$/src/Component/Profession/Profession.scss" />
+        <option value="$PROJECT_DIR$/src/Component/Student/SysCollege/SysCollege.tsx" />
+        <option value="$PROJECT_DIR$/src/Component/Student/SysCollege/SysCollege.scss" />
+        <option value="$PROJECT_DIR$/src/Component/Student/StarGen.ts" />
+        <option value="$PROJECT_DIR$/src/Component/Student/Student.tsx" />
+        <option value="$PROJECT_DIR$/src/Component/Student/Student.scss" />
+        <option value="$PROJECT_DIR$/src/Component/Student/StarGen.tsx" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="240" />
-    <option name="y" value="135" />
+    <option name="y" value="131" />
     <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -164,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,17 +163,48 @@
               <item name="sy_train" type="b2602c69:ProjectViewProjectNode" />
               <item name="sy_train" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sy_train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sy_train" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sy_train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sy_train" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sy_train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sy_train" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sy_train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sy_train" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
+              <item name="Profession" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sy_train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sy_train" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
+              <item name="Student" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../学姐circularMap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -194,11 +217,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\sy_train\src\Component\Student\SysCollege\img" />
       <recent name="C:\Users\User\Documents\sy_train\src\Component\Student\img" />
       <recent name="C:\Users\User\Documents\sy_train\leftout" />
       <recent name="C:\Users\User\Documents\sy_train\src\Component\Home\img" />
       <recent name="C:\Users\User\Documents\sy_train\src\Component\Home" />
-      <recent name="C:\Users\User\Documents\sy_train\src\Component" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,11 +351,14 @@
       <workItem from="1570062831401" duration="598000" />
       <workItem from="1570068871882" duration="25939000" />
       <workItem from="1570149042740" duration="23829000" />
+      <workItem from="1570242369850" duration="2044000" />
+      <workItem from="1570932742973" duration="22985000" />
+      <workItem from="1571038276081" duration="766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177549000" />
+    <option name="totallyTimeSpent" value="203344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,9 +370,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2160" y="135" width="1440" height="810" extended-state="0" />
+    <frame x="240" y="131" width="1440" height="788" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.25035664" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.15834522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973656" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.501548" side_tool="true" weight="0.13909379" />
@@ -361,7 +387,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32952183" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32952183" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.47633135" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14678898" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -457,16 +483,6 @@
     <entry file="file://$PROJECT_DIR$/src/Component/Student/CollegeFeature/CollegeFeature.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Student/CollegeFeature/CollegeFeature.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Student/img/pic_rect.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -502,64 +518,14 @@
     <entry file="file://$PROJECT_DIR$/src/Component/Student/Student5Card/Student5Card.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Student/Student5Card/Student5Card.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Home/img/homePicCoverRight.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Home/img/path-2@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Student/Student.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Student/Student.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Home/img/path-2.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Home/img/homePicCoverRight.svg" />
+    <entry file="file://$PROJECT_DIR$/src/Component/Home/img/path-2@2x.png" />
+    <entry file="file://$PROJECT_DIR$/src/Component/Home/img/path-2.svg" />
     <entry file="file://$PROJECT_DIR$/src/Component/Home/img/homePicCover.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Home/img/homePicCoverMobile.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Student/Student.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Home/Home.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -568,30 +534,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.tsx">
+    <entry file="file://$PROJECT_DIR$/src/Component/Home/Home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="27">
+          <caret line="226" column="4" selection-start-line="226" selection-start-column="4" selection-end-line="226" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Home/Home.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="1323">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Home/Home.scss">
+    <entry file="file://$PROJECT_DIR$/src/app.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="226" column="4" selection-start-line="226" selection-start-column="4" selection-end-line="226" selection-end-column="4" />
+        <state relative-caret-position="378">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Student/CollegeFeature/CollegeFeature.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Profession/Profession.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="279" column="65" lean-forward="true" selection-start-line="279" selection-start-column="65" selection-end-line="279" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Profession/Profession.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Profession/Profession.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="900" column="10" selection-start-line="900" selection-start-column="10" selection-end-line="900" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Student/SysCollege/SysCollege.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Student/SysCollege/SysCollege.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Student/Student5Card/Student5Card.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Student/Student.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4887">
+          <caret line="190" column="31" selection-start-line="190" selection-start-column="31" selection-end-line="190" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Student/Student.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15930">
+          <caret line="590" column="36" selection-start-line="590" selection-start-column="36" selection-end-line="590" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Student/Student.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7614">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Student/StarGen.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
