@@ -2,6 +2,7 @@ import * as React from 'react'
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import Student from "./Component/Student/Student";
 import Home from "./Component/Home/Home";
+import Profession from "./Component/Profession/Profession";
 
 
 export default function App() {
@@ -12,7 +13,7 @@ export default function App() {
                         <Student/>
                     </Route>
                     <Route path="/Profession">
-                        <Student/>
+                        <Profession/>
                     </Route>
                     <Route path="/">
                         <Home/>

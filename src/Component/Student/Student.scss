@@ -26,6 +26,7 @@
     align-items: flex-end;
   }
 }
+
 @media screen and (max-width: 1320px) and (min-width: 617px) {
   .card {
     transition: 0.3s;
@@ -55,10 +56,11 @@
   .Student-5-top-block {
     display: flex;
     align-items: center;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
   }
 }
+
 @media screen and (min-width: 707px) {
   .Student-5-top-block {
     display: flex;
@@ -81,14 +83,15 @@
 
 @media screen and (max-width: 772px) {
   .Student-5-title-block {
-    display:flex;
+    display: flex;
     align-items: flex-end;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
   }
 }
+
 @media screen and (min-width: 773px) {
   .Student-5-title-block {
-    display:flex;
+    display: flex;
     align-items: flex-end;
   }
 }
@@ -96,13 +99,13 @@
 
 @media screen and (max-width: 772px) {
   .Student-5-title {
-    width:100%;
+    width: 100%;
     font-family: PingFangTC, sans-serif;
     font-size: 30px;
     letter-spacing: 1.25px;
     color: #242423;
     margin-right: 12px;
-    margin-bottom:6px;
+    margin-bottom: 6px;
   }
 }
 
@@ -147,14 +150,16 @@
 
 @media screen and (max-width: 772px) {
   .Student-5-button {
-    display:none;
+    display: none;
   }
 }
+
 @media screen and (min-width: 773px) {
   .Student-5-button {
     justify-items: flex-end;
   }
 }
+
 @media screen and (max-width: 1320px) {
   .Student-5-wrapper {
     margin-top: 40px;
@@ -531,6 +536,68 @@ h3 {
   }
 }
 
+.Standard-outline {
+  width: 100%;
+  background-color: #f1f7f9;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Standard-outline-title {
+  width: 100%;
+  height: 145px;
+  font-family: PingFangTC, sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: 5.25px;
+  text-align: center;
+  color: #247ba0;
+  margin-bottom: 12px;
+}
+
+.Standard-outline-subtitle {
+  width: 100%;
+  height: 33px;
+  font-family: PingFangTC, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #5c6b73;
+  margin-bottom: 36px;
+}
+
+.Twelve-application-theme {
+   height:1065px;
+  width:100%;
+  padding:60px 120px 90px;
+  background-color:#fff;
+}
+
+.Twelve-application-card1 {
+  width: 360px;
+  height: 158px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 9px 0 #f1f7f9;
+  background-color: #ffffff;
+  overflow:hidden;
+  font-family: PingFangTC,sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.38px;
+  color: #5c6b73;
+}
+
 @media screen and (min-width: 919px) {
   .Student-4-contnet-block {
     display: flex;
@@ -666,13 +733,15 @@ h3 {
     position: relative;
   }
 }
+
 @media screen and (max-width: 652px) {
   .Student-6-container {
     display: flex;
     margin-top: 90px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
   }
 }
+
 @media screen and (min-width: 653px) {
   .Student-6-container {
     display: flex;
@@ -682,7 +751,7 @@ h3 {
 
 @media screen and (max-width: 652px) {
   .Student-6-text {
-    width:50%;
+    width: 50%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-end;
@@ -695,16 +764,17 @@ h3 {
     letter-spacing: 0.38px;
     color: #242423;
     position: relative;
-    padding:0px 25px 13px 24px;
+    padding: 0px 25px 13px 24px;
   }
   .Student-6-text:last-child {
-    width:100%;
+    width: 100%;
     flex-direction: column-reverse;
   }
-  .Student-6{
-    padding:0;
+  .Student-6 {
+    padding: 0;
   }
 }
+
 @media screen and (min-width: 653px) {
   .Student-6-text {
     display: flex;
@@ -722,17 +792,26 @@ h3 {
     position: relative;
   }
 }
+
 @media screen and (min-width: 653px) {
   .Student-6-content {
     margin-bottom: 0px;
   }
 }
+
 @media screen and (max-width: 652px) {
   .Student-6-content {
     margin-bottom: 48px;
-    text-align:center;
-    font-size:12px;
+    text-align: center;
+    font-size: 12px;
   }
+}
+
+
+.Student-7-card-content-block {
+  flex: 1;
+  //padding: 18px;
+  background-color: #f1f7f9;
 }
 
 .Student-7-card-img-block {
@@ -743,34 +822,35 @@ h3 {
 @media screen and (max-width: 528px) {
 
   .Level-1-AI.Level-1 {
-    font-size:18px;
+    font-size: 18px;
     padding: 18px 0;
     background-color: #f1f7f9;
   }
   .Level-1-AI.Level-2 {
-    font-size:18px;
+    font-size: 18px;
     padding: 18px 0;
     background-color: #d1f1ff;
   }
 
   .Level-1-AI.Level-3 {
-    font-size:18px;
+    font-size: 18px;
     padding: 18px 0;
     background-color: #89cae1;
   }
 
   .Level-1-AI.Level-4 {
-    font-size:18px;
+    font-size: 18px;
     padding: 18px 0;
     background-color: #53b6d6;
   }
 
   .Level-1-AI.Level-5 {
-    font-size:18px;
+    font-size: 18px;
     padding: 18px 0;
     background-color: #247ba0;
   }
 }
+
 @media screen and (max-width: 652px) and(min-width: 529px) {
   .Level-1-AI.Level-1 {
     padding: 18px 0;
@@ -796,6 +876,7 @@ h3 {
     background-color: #247ba0;
   }
 }
+
 @media screen and (min-width: 653px) {
   .Level-1-AI.Level-1 {
     padding: 28px 0;
@@ -823,7 +904,6 @@ h3 {
 }
 
 
-
 @media screen and (max-width: 652px) {
   .Student-6-content-1 {
     background-color: #f1f7f9;
@@ -841,6 +921,7 @@ h3 {
     background-color: #007ca4;
   }
 }
+
 @media screen and (min-width: 653px) {
   .Student-6-content-1 {
   }
@@ -853,6 +934,7 @@ h3 {
   .Student-6-content-5 {
   }
 }
+
 .Student-7-span {
   width: 75px;
   height: 77px;
@@ -864,6 +946,7 @@ h3 {
   line-height: normal;
   letter-spacing: 0.38px;
   color: #757575;
+  margin-left: 18px;
 }
 
 .Student-7 {
@@ -877,18 +960,24 @@ h3 {
     margin-bottom: 42px;
   }
 }
-@media screen and (max-width: 832px)  and (min-width: 639px){
+
+@media screen and (max-width: 832px) and (min-width: 639px) {
   .Student-7-card {
     width: 48%;
     display: flex;
     margin-bottom: 42px;
+    border-radius: 6px;
+    overflow: hidden;
   }
 }
+
 @media screen and (max-width: 638px) {
   .Student-7-card {
     width: 100%;
     display: flex;
     margin-bottom: 42px;
+    border-radius: 6px;
+    overflow: hidden;
   }
 }
 
@@ -897,30 +986,37 @@ h3 {
   font-weight: 300;
   line-height: 33px;
   margin-bottom: 18px;
+  background-color: #004343;
+  color: #ffffff;
+  padding: 15px 18px 11px;
 }
-@media screen and (max-width: 1304px){
+
+@media screen and (max-width: 1304px) {
   .Student-8 {
     display: flex;
     justify-content: left;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 1305px){
+
+@media screen and (min-width: 1305px) {
   .Student-8 {
     display: flex;
     justify-content: center;
   }
 }
-@media screen and (max-width: 1304px){
+
+@media screen and (max-width: 1304px) {
   .Student-8-report {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom:54px;
+    margin-bottom: 54px;
   }
 }
-@media screen and (min-width: 1305px){
+
+@media screen and (min-width: 1305px) {
   .Student-8-report {
     flex: 1;
     display: flex;
@@ -929,7 +1025,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 1304px){
+@media screen and (max-width: 1304px) {
   .Student-8-recommend {
     width: 100%;
     display: flex;
@@ -937,7 +1033,8 @@ h3 {
     justify-content: center;
   }
 }
-@media screen and (min-width: 1305px){
+
+@media screen and (min-width: 1305px) {
   .Student-8-recommend {
     width: 26.67%;
     display: flex;
@@ -945,7 +1042,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 1055px){
+@media screen and (max-width: 1055px) {
   .Student-8-card1 {
     padding: 18px 12px 24px 18px;
     width: 92%;
@@ -955,7 +1052,8 @@ h3 {
     margin-bottom: 18px;
   }
 }
-@media screen and (min-width: 1056px){
+
+@media screen and (min-width: 1056px) {
   .Student-8-card1 {
     padding: 30px;
     width: 46%;
@@ -971,7 +1069,7 @@ h3 {
   margin-bottom: 0px;
 }
 
-@media screen and (max-width:706px ){
+@media screen and (max-width: 706px) {
   .Student-8-h1 {
     height: auto;
     font-family: PingFangTC, sans-serif;
@@ -983,10 +1081,11 @@ h3 {
     letter-spacing: 1.25px;
     color: #242423;
     margin-bottom: 12px;
-    text-align:center;
+    text-align: center;
   }
 }
-@media screen and (max-width:1304px )and (min-width: 707px){
+
+@media screen and (max-width: 1304px) and (min-width: 707px) {
   .Student-8-h1 {
     height: 84px;
     font-family: PingFangTC, sans-serif;
@@ -998,10 +1097,11 @@ h3 {
     letter-spacing: 1.25px;
     color: #242423;
     margin-bottom: 12px;
-    text-align:center;
+    text-align: center;
   }
 }
-@media screen and (min-width:1305px ){
+
+@media screen and (min-width: 1305px) {
   .Student-8-h1 {
     height: 84px;
     font-family: PingFangTC, sans-serif;
@@ -1016,7 +1116,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 706px){
+@media screen and (max-width: 706px) {
   .Student-8-h2 {
     margin-right: 54px;
     height: 50px;
@@ -1033,7 +1133,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 1453px) and (min-width: 707px){
+@media screen and (max-width: 1453px) and (min-width: 707px) {
   .Student-8-h2 {
     margin-right: 54px;
     height: 50px;
@@ -1048,7 +1148,8 @@ h3 {
     margin-bottom: 50px;
   }
 }
-@media screen and (min-width: 1454px){
+
+@media screen and (min-width: 1454px) {
   .Student-8-h2 {
     margin-bottom: 18px;
     margin-right: 54px;
@@ -1078,7 +1179,7 @@ h3 {
   color: #242423;
 }
 
-@media screen and (max-width: 706px){
+@media screen and (max-width: 706px) {
   .Student-8-h4 {
     width: 100%;
     height: 75px;
@@ -1092,7 +1193,8 @@ h3 {
     color: #757575;
   }
 }
-@media screen and (min-width: 707px){
+
+@media screen and (min-width: 707px) {
   .Student-8-h4 {
     width: 100%;
     height: 75px;
@@ -1107,10 +1209,10 @@ h3 {
   }
 }
 
-.Student-8-card1-outline{
-  display:  flex ;
-  align-items:  flex-start ;
-  justify-content:  space-between ;
+.Student-8-card1-outline {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1317px) {
@@ -1122,6 +1224,7 @@ h3 {
     margin-bottom: 35px;
   }
 }
+
 @media screen and (min-width: 1318px) {
   .Student-8-python {
     width: 100%;
@@ -1135,7 +1238,8 @@ h3 {
 .Student-8-python:last-child {
   margin-bottom: 0px;
 }
-@media screen and (max-width: 706px){
+
+@media screen and (max-width: 706px) {
   .Student-8-rect1 {
     width: 75px;
     height: 29px;
@@ -1143,10 +1247,11 @@ h3 {
     border: solid 1px #757575;
     text-align: center;
     line-height: 29px;
-    margin-top:3px;
+    margin-top: 3px;
   }
 }
-@media screen and (min-width: 707px){
+
+@media screen and (min-width: 707px) {
   .Student-8-rect1 {
     width: 75px;
     height: 29px;
@@ -1154,7 +1259,7 @@ h3 {
     border: solid 1px #757575;
     text-align: center;
     line-height: 29px;
-    margin-top:15px;
+    margin-top: 15px;
   }
 }
 
@@ -1176,8 +1281,9 @@ h3 {
 }
 
 .Student-8-rect2-python-note {
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
+
 .Student-8-rect2-text {
   width: 100%;
   height: 25px;
@@ -1189,7 +1295,7 @@ h3 {
   line-height: normal;
   letter-spacing: 0.38px;
   color: #242423;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
 .Student-8-rect3 {
@@ -1209,7 +1315,7 @@ h3 {
   color: #757575;
 }
 
-@media screen and (max-width: 706px){
+@media screen and (max-width: 706px) {
   .Student-8-subtitle {
     margin-bottom: 31px;
     height: 41px;
@@ -1221,10 +1327,11 @@ h3 {
     line-height: 1.37;
     letter-spacing: 0.63px;
     color: #5c6b73;
-    text-align:center;
+    text-align: center;
   }
 }
-@media screen and (max-width: 1304px) and(min-width: 707px){
+
+@media screen and (max-width: 1304px) and(min-width: 707px) {
   .Student-8-subtitle {
     margin-bottom: 31px;
     height: 41px;
@@ -1236,10 +1343,11 @@ h3 {
     line-height: 1.37;
     letter-spacing: 0.63px;
     color: #5c6b73;
-    text-align:center;
+    text-align: center;
   }
 }
-@media screen and (min-width: 1305px){
+
+@media screen and (min-width: 1305px) {
   .Student-8-subtitle {
     margin-bottom: 31px;
     height: 41px;
@@ -1258,7 +1366,7 @@ h3 {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
 .Student-9 {
@@ -1269,7 +1377,8 @@ h3 {
   align-items: center;
   position: relative;
 }
-@media screen and(max-width: 706px){
+
+@media screen and(max-width: 706px) {
   .Student-9-title {
     width: 100%;
     height: 84px;
@@ -1285,7 +1394,8 @@ h3 {
     margin-bottom: 21px;
   }
 }
-@media screen and(min-width: 707px){
+
+@media screen and(min-width: 707px) {
   .Student-9-title {
     width: 100%;
     height: 84px;
@@ -1302,7 +1412,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 706px){
+@media screen and (max-width: 706px) {
   .Student-9-subtitle {
     width: 100%;
     height: 25px;
@@ -1318,7 +1428,8 @@ h3 {
     margin-bottom: 68px;
   }
 }
-@media screen and (min-width: 707px){
+
+@media screen and (min-width: 707px) {
   .Student-9-subtitle {
     width: 100%;
     height: 25px;
@@ -1335,7 +1446,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 706px){
+@media screen and (max-width: 706px) {
   .Student-9-button {
     width: 86px;
     height: 41px;
@@ -1353,7 +1464,8 @@ h3 {
     color: #f5f5f5;
   }
 }
-@media screen and (min-width: 707px){
+
+@media screen and (min-width: 707px) {
   .Student-9-button {
     width: 146px;
     height: 57px;
@@ -1372,9 +1484,10 @@ h3 {
   }
 }
 
-.Student-9-svg1{
+.Student-9-svg1 {
   z-index: -1;
 }
+
 .Student-10 {
   padding: 35px 120px;
   height: 210px;

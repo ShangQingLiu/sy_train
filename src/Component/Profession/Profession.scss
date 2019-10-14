@@ -1,0 +1,1398 @@
+@media screen and (max-width: 706px) {
+  .Student-title {
+    height: 17px;
+    object-fit: contain;
+  }
+}
+
+.card-7-outline:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.card-7-outline {
+  margin-right: 60px;
+  width: 25%;
+}
+
+@media screen and (max-width: 616px) {
+  .card {
+    transition: 0.3s;
+    width: 100%;
+    height: 360px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+@media screen and (max-width: 1320px) and (min-width: 617px) {
+  .card {
+    transition: 0.3s;
+    width: 40%;
+    height: 360px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 1321px) {
+  .card {
+    transition: 0.3s;
+    width: 270px;
+    height: 360px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .Student-5-top-block {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 707px) {
+  .Student-5-top-block {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+.Student-top-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 772px) {
+  .Student-5-title-block {
+    display:flex;
+    align-items: flex-end;
+    flex-wrap:wrap;
+  }
+}
+@media screen and (min-width: 773px) {
+  .Student-5-title-block {
+    display:flex;
+    align-items: flex-end;
+  }
+}
+
+
+@media screen and (max-width: 772px) {
+  .Student-5-title {
+    width:100%;
+    font-family: PingFangTC, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.25px;
+    color: #242423;
+    margin-right: 12px;
+    margin-bottom:6px;
+  }
+}
+
+@media screen and (min-width: 773px) {
+  .Student-5-title {
+    font-family: PingFangTC, sans-serif;
+    font-size: 60px;
+    letter-spacing: 1.25px;
+    color: #242423;
+    margin-right: 12px;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .Student-5-subtitle {
+    width: 100%;
+    font-family: PingFangTC, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.37;
+    letter-spacing: 0.63px;
+    color: #5c6b73;
+  }
+}
+
+@media screen and (min-width: 773px) {
+  .Student-5-subtitle {
+    width: 123px;
+    height: 41px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.37;
+    letter-spacing: 0.63px;
+    color: #5c6b73;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .Student-5-button {
+    display:none;
+  }
+}
+@media screen and (min-width: 773px) {
+  .Student-5-button {
+    justify-items: flex-end;
+  }
+}
+@media screen and (max-width: 1320px) {
+  .Student-5-wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1321px) {
+  .Student-5-wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:last-child {
+  margin-bottom: 0px;
+}
+
+
+h3 {
+  width: 50px;
+  height: 33px;
+  font-family: PingFangTC, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #242423;
+}
+
+@media screen and (max-width: 706px) {
+  .Student-block {
+    padding: 30px 25px;
+  }
+
+}
+
+@media screen and (min-width: 707px) {
+  .Student-block {
+    padding: 90px 120px;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .Student-1-big-quote {
+    width: 43px;
+    height: 84px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 707px) {
+  .Student-1-big-quote {
+    width: 43px;
+    height: 84px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    color: #f5f5f5;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .Student-1-subtitle {
+    font-family: PingFangTC, sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #f5f5f5;
+  }
+}
+
+@media screen and (min-width: 707px) {
+  .Student-1-subtitle {
+    font-family: PingFangTC, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #f5f5f5;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .Student-2-line {
+    display: none;
+  }
+}
+
+.Student-2-line-base {
+  width: 90px;
+}
+
+.Student-2-line {
+  width: 100%;
+  height: 1px;
+  border-top: solid 1px #247ba0;
+  background-color: #247ba0;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 706px) {
+  .Student-2-subtitle {
+    width: 100%;
+    height: 25px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.37;
+    letter-spacing: 0.63px;
+    text-align: center;
+    color: #757575;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 707px) {
+  .Student-2-subtitle {
+    width: 100%;
+    height: 41px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.37;
+    letter-spacing: 0.63px;
+    text-align: center;
+    color: #757575;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .Student-2-title {
+    width: 100%;
+    height: 40px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    text-align: center;
+    color: #242423;
+  }
+}
+
+@media screen and (min-width: 707px) {
+  .Student-2-title {
+    width: 100%;
+    height: 84px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    text-align: center;
+    color: #242423;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .Student-2-block {
+    padding: 30px 40px;
+  }
+}
+
+@media screen and (min-width: 707px) {
+  .Student-2-block {
+    padding: 90px 120px;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .Student-2-wrapper {
+    margin-top: 98px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .Student-2-feature-block {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 707px) {
+  .Student-2-wrapper {
+    margin-top: 98px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Student-2-feature-block {
+    text-align: center;
+    flex: 1;
+  }
+}
+
+
+@media screen and (min-width: 754px) {
+  .Student-3 {
+    display: flex;
+    width: 100%;
+    background-color: rgba(244, 244, 248, 0.3);
+  }
+}
+
+@media screen and (max-width: 753px) {
+  .Student-3 {
+    display: flex;
+    width: 100%;
+    background-color: rgba(244, 244, 248, 0.3);
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 754px) {
+  .Student-3-title-root {
+    width: 36.33%;
+  }
+}
+
+@media screen and (max-width: 753px) {
+  .Student-3-title-root {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 754px) {
+  .Student-3-CollegeFeature-margin {
+    width: 48%;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 753px) {
+  .Student-3-CollegeFeature-margin {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 753px) {
+  .Student-3-pic-subtitle {
+    font-family: PingFangTC, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.38px;
+    color: #757575;
+  }
+}
+
+@media screen and (min-width: 754px) {
+  .Student-3-pic-subtitle {
+    font-family: PingFangTC, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.38px;
+    color: #757575;
+  }
+}
+
+@media screen and (max-width: 753px) {
+
+  .Student-3-title {
+    line-height: 84px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    color: #242423;
+    margin-bottom: 24px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .Student-3-subtitle {
+    width: 100%;
+    font-family: PingFangTC, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    color: #757575;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 913px) and (min-width: 754px) {
+  .Student-3-title {
+    width: 246px;
+    line-height: 84px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    color: #242423;
+    margin-bottom: 24px;
+  }
+  .Student-3-subtitle {
+    width: 221px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    color: #757575;
+  }
+}
+
+@media screen and (min-width: 914px) {
+  .Student-3-title {
+    width: 246px;
+    line-height: 84px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    color: #242423;
+    margin-bottom: 24px;
+  }
+  .Student-3-subtitle {
+    width: 221px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 24px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    color: #757575;
+  }
+}
+
+@media screen and (min-width: 919px) {
+  .Student-4-contnet-block {
+    display: flex;
+    margin-top: 98px;
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .Student-4-contnet-block {
+    display: flex;
+    margin-top: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .Student-4-p1-title1 {
+    line-height: 33px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #242423;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 822px) {
+  .Student-4-intro ::before {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 823px) {
+  .Student-4-intro ::before {
+    display: block;
+  }
+  .Student-4-intro {
+    padding-left: 60px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 822px) {
+  .Student-4-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    transform: scale(0.5) translate(-50%, -50%);
+    transform-origin: 0 0;
+  }
+}
+
+@media screen and (min-width: 823px) {
+  .Student-4-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 822px) {
+  .Student-4-p1 {
+    height: auto;
+    font-family: PingFangTC, sans-serif;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.33px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 823px) {
+  .Student-4-p1 {
+    height: 60px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.33px;
+    color: #757575;
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .Student-4-intro-block {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 919px) {
+  .Student-4-intro-block {
+    width: 51%;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .Student-4-img-block {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30.7px;
+  }
+}
+
+@media screen and (max-width: 918px) and (min-width: 707px) {
+  .Student-4-img-block {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30.7px;
+  }
+}
+
+@media screen and (min-width: 919px) {
+  .Student-4-img-block {
+    flex: 1;
+    position: relative;
+  }
+}
+@media screen and (max-width: 652px) {
+  .Student-6-container {
+    display: flex;
+    margin-top: 90px;
+    flex-wrap:wrap;
+  }
+}
+@media screen and (min-width: 653px) {
+  .Student-6-container {
+    display: flex;
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .Student-6-text {
+    width:50%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    font-family: PingFangTC, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.38px;
+    color: #242423;
+    position: relative;
+    padding:0px 25px 13px 24px;
+  }
+  .Student-6-text:last-child {
+    width:100%;
+    flex-direction: column-reverse;
+  }
+  .Student-6{
+    padding:0;
+  }
+}
+@media screen and (min-width: 653px) {
+  .Student-6-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 20%;
+    font-family: PingFangTC, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.38px;
+    color: #242423;
+    position: relative;
+  }
+}
+@media screen and (min-width: 653px) {
+  .Student-6-content {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 652px) {
+  .Student-6-content {
+    margin-bottom: 48px;
+    text-align:center;
+    font-size:12px;
+  }
+}
+
+.Student-7-card-img-block {
+  width: 50%;
+  background-color: #f1f7f9;
+}
+
+@media screen and (max-width: 528px) {
+
+  .Level-1-AI.Level-1 {
+    font-size:18px;
+    padding: 18px 0;
+    background-color: #f1f7f9;
+  }
+  .Level-1-AI.Level-2 {
+    font-size:18px;
+    padding: 18px 0;
+    background-color: #d1f1ff;
+  }
+
+  .Level-1-AI.Level-3 {
+    font-size:18px;
+    padding: 18px 0;
+    background-color: #89cae1;
+  }
+
+  .Level-1-AI.Level-4 {
+    font-size:18px;
+    padding: 18px 0;
+    background-color: #53b6d6;
+  }
+
+  .Level-1-AI.Level-5 {
+    font-size:18px;
+    padding: 18px 0;
+    background-color: #247ba0;
+  }
+}
+@media screen and (max-width: 652px) and(min-width: 529px) {
+  .Level-1-AI.Level-1 {
+    padding: 18px 0;
+    background-color: #f1f7f9;
+  }
+  .Level-1-AI.Level-2 {
+    padding: 18px 0;
+    background-color: #d1f1ff;
+  }
+
+  .Level-1-AI.Level-3 {
+    padding: 18px 0;
+    background-color: #89cae1;
+  }
+
+  .Level-1-AI.Level-4 {
+    padding: 18px 0;
+    background-color: #53b6d6;
+  }
+
+  .Level-1-AI.Level-5 {
+    padding: 18px 0;
+    background-color: #247ba0;
+  }
+}
+@media screen and (min-width: 653px) {
+  .Level-1-AI.Level-1 {
+    padding: 28px 0;
+    background-color: #f1f7f9;
+  }
+  .Level-1-AI.Level-2 {
+    padding: 42px 0;
+    background-color: #d1f1ff;
+  }
+
+  .Level-1-AI.Level-3 {
+    padding: 58px 0;
+    background-color: #89cae1;
+  }
+
+  .Level-1-AI.Level-4 {
+    padding: 73px 0;
+    background-color: #53b6d6;
+  }
+
+  .Level-1-AI.Level-5 {
+    padding: 88px 0;
+    background-color: #247ba0;
+  }
+}
+
+
+
+@media screen and (max-width: 652px) {
+  .Student-6-content-1 {
+    background-color: #f1f7f9;
+  }
+  .Student-6-content-2 {
+    background-color: #c9f2ff;
+  }
+  .Student-6-content-3 {
+    background-color: #89cae1;
+  }
+  .Student-6-content-4 {
+    background-color: #53b6d6;
+  }
+  .Student-6-content-5 {
+    background-color: #007ca4;
+  }
+}
+@media screen and (min-width: 653px) {
+  .Student-6-content-1 {
+  }
+  .Student-6-content-2 {
+  }
+  .Student-6-content-3 {
+  }
+  .Student-6-content-4 {
+  }
+  .Student-6-content-5 {
+  }
+}
+.Student-7-span {
+  width: 75px;
+  height: 77px;
+  font-family: PingFangTC, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.38px;
+  color: #757575;
+}
+
+.Student-7 {
+  background-color: rgba(244, 244, 248, 0.3);
+}
+
+@media screen and (min-width: 833px) {
+  .Student-7-card {
+    width: 32%;
+    display: flex;
+    margin-bottom: 42px;
+  }
+}
+@media screen and (max-width: 832px)  and (min-width: 639px){
+  .Student-7-card {
+    width: 48%;
+    display: flex;
+    margin-bottom: 42px;
+  }
+}
+@media screen and (max-width: 638px) {
+  .Student-7-card {
+    width: 100%;
+    display: flex;
+    margin-bottom: 42px;
+  }
+}
+
+.Student-7-card-name {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 33px;
+  margin-bottom: 18px;
+}
+.Profession-7-card-content-block {
+  flex: 1;
+  padding: 18px;
+  background-color: #f1f7f9;
+}
+@media screen and (max-width: 1304px){
+  .Student-8 {
+    display: flex;
+    justify-content: left;
+    flex-wrap:wrap;
+  }
+}
+@media screen and (min-width: 1305px){
+  .Student-8 {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1304px){
+  .Student-8-report {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom:54px;
+  }
+}
+@media screen and (min-width: 1305px){
+  .Student-8-report {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1304px){
+  .Student-8-recommend {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1305px){
+  .Student-8-recommend {
+    width: 26.67%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1055px){
+  .Student-8-card1 {
+    padding: 18px 12px 24px 18px;
+    width: 92%;
+    height: auto;
+    border-radius: 6px;
+    background-color: rgba(244, 244, 248, 0.3);
+    margin-bottom: 18px;
+  }
+}
+@media screen and (min-width: 1056px){
+  .Student-8-card1 {
+    padding: 30px;
+    width: 46%;
+    height: auto;
+    border-radius: 6px;
+    background-color: rgba(244, 244, 248, 0.3);
+    margin-bottom: 30px;
+  }
+
+}
+
+.Student-8-card1:last-child {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width:706px ){
+  .Student-8-h1 {
+    height: auto;
+    font-family: PingFangTC, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    color: #242423;
+    margin-bottom: 12px;
+    text-align:center;
+  }
+}
+@media screen and (max-width:1304px )and (min-width: 707px){
+  .Student-8-h1 {
+    height: 84px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    color: #242423;
+    margin-bottom: 12px;
+    text-align:center;
+  }
+}
+@media screen and (min-width:1305px ){
+  .Student-8-h1 {
+    height: 84px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    color: #242423;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 706px){
+  .Student-8-h2 {
+    margin-right: 54px;
+    height: 50px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    color: #242423;
+    margin-bottom: 18px;
+
+  }
+}
+
+@media screen and (max-width: 1453px) and (min-width: 707px){
+  .Student-8-h2 {
+    margin-right: 54px;
+    height: 50px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    color: #242423;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1454px){
+  .Student-8-h2 {
+    margin-bottom: 18px;
+    margin-right: 54px;
+    height: 50px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    color: #242423;
+  }
+}
+
+
+.Student-8-h3 {
+  width: 135px;
+  height: 25px;
+  font-family: PingFangTC, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.38px;
+  color: #242423;
+}
+
+@media screen and (max-width: 706px){
+  .Student-8-h4 {
+    width: 100%;
+    height: 75px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.38px;
+    color: #757575;
+  }
+}
+@media screen and (min-width: 707px){
+  .Student-8-h4 {
+    width: 100%;
+    height: 75px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.38px;
+    color: #757575;
+  }
+}
+
+.Student-8-card1-outline{
+  display:  flex ;
+  align-items:  flex-start ;
+  justify-content:  space-between ;
+}
+
+@media screen and (max-width: 1317px) {
+  .Student-8-python {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (min-width: 1318px) {
+  .Student-8-python {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+}
+
+.Student-8-python:last-child {
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 706px){
+  .Student-8-rect1 {
+    width: 75px;
+    height: 29px;
+    border-radius: 3px;
+    border: solid 1px #757575;
+    text-align: center;
+    line-height: 29px;
+    margin-top:3px;
+  }
+}
+@media screen and (min-width: 707px){
+  .Student-8-rect1 {
+    width: 75px;
+    height: 29px;
+    border-radius: 3px;
+    border: solid 1px #757575;
+    text-align: center;
+    line-height: 29px;
+    margin-top:15px;
+  }
+}
+
+.Student-8-rect1-text {
+  font-family: PingFangTC, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.25px;
+  color: #757575;
+}
+
+.Student-8-rect2 {
+  border-radius: 6px;
+  background-color: rgba(244, 244, 248, 0.3);
+  padding: 18px 24px;
+  flex: 1;
+}
+
+.Student-8-rect2-python-note {
+  margin-bottom:5px;
+}
+.Student-8-rect2-text {
+  width: 100%;
+  height: 25px;
+  font-family: PingFangTC, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.38px;
+  color: #242423;
+  flex-wrap:wrap;
+}
+
+.Student-8-rect3 {
+  padding: 6px 11px;
+  border-radius: 3px;
+  border: solid 1px #757575;
+}
+
+.Student-8-rect3-text {
+  font-family: PingFangTC, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: #757575;
+}
+
+@media screen and (max-width: 706px){
+  .Student-8-subtitle {
+    margin-bottom: 31px;
+    height: 41px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.37;
+    letter-spacing: 0.63px;
+    color: #5c6b73;
+    text-align:center;
+  }
+}
+@media screen and (max-width: 1304px) and(min-width: 707px){
+  .Student-8-subtitle {
+    margin-bottom: 31px;
+    height: 41px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.37;
+    letter-spacing: 0.63px;
+    color: #5c6b73;
+    text-align:center;
+  }
+}
+@media screen and (min-width: 1305px){
+  .Student-8-subtitle {
+    margin-bottom: 31px;
+    height: 41px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.37;
+    letter-spacing: 0.63px;
+    color: #5c6b73;
+  }
+}
+
+.Student-8-outline1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+}
+
+.Student-9 {
+  padding: 183px 0 162px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@media screen and(max-width: 706px){
+  .Student-9-title {
+    width: 100%;
+    height: 84px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    text-align: center;
+    color: #242423;
+    margin-bottom: 21px;
+  }
+}
+@media screen and(min-width: 707px){
+  .Student-9-title {
+    width: 100%;
+    height: 84px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    text-align: center;
+    color: #242423;
+    margin-bottom: 21px;
+  }
+}
+
+@media screen and (max-width: 706px){
+  .Student-9-subtitle {
+    width: 100%;
+    height: 25px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.83;
+    letter-spacing: 0.63px;
+    text-align: center;
+    color: #5c6b73;
+    margin-bottom: 68px;
+  }
+}
+@media screen and (min-width: 707px){
+  .Student-9-subtitle {
+    width: 100%;
+    height: 25px;
+    font-family: PingFangTC, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.83;
+    letter-spacing: 0.63px;
+    text-align: center;
+    color: #5c6b73;
+    margin-bottom: 68px;
+  }
+}
+
+@media screen and (max-width: 706px){
+  .Student-9-button {
+    width: 86px;
+    height: 41px;
+    object-fit: contain;
+    border-radius: 6px;
+    background-color: #247ba0;
+    font-family: PingFangTC, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.38px;
+    text-align: center;
+    color: #f5f5f5;
+  }
+}
+@media screen and (min-width: 707px){
+  .Student-9-button {
+    width: 146px;
+    height: 57px;
+    object-fit: contain;
+    border-radius: 6px;
+    background-color: #247ba0;
+    font-family: PingFangTC, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.38px;
+    text-align: center;
+    color: #f5f5f5;
+  }
+}
+
+.Student-9-svg1{
+  z-index: -1;
+}
+.Student-10 {
+  padding: 35px 120px;
+  height: 210px;
+  background-color: #242423;
+}
+
+.Student-10-text {
+  font-family: PingFangTC, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.42;
+  letter-spacing: 0.25px;
+  color: #f1f7f9;
+}
